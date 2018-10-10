@@ -56,7 +56,8 @@ p {
 }
 
 div {
-	margin : 40px 8px 0 8px;
+	margin : 40px 8px 0px 8px;
+	padding: 40px;
 	text-align: center;
 }
 
