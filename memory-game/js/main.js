@@ -1,4 +1,3 @@
-//console.log("Up and running!")
 
 var cards  = [
 {
@@ -45,12 +44,15 @@ var flipCard = function() {
 
 var cardsInPlay = [];
 var checkForMatch = function() {
+	if (cardsInPlay.length >=2) {
+		console.log(cardsInPlay.length);
 		if (cardsInPlay[0] === cardsInPlay[1]) {
 				alert("You found a match!");
 			} else {
 				alert("Sorry, try again.");
 			}
-		} 
+		}
+	} 
 
 
 createBoard();
